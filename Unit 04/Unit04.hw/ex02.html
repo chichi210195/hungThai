@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/font-awesome.min.css">
+	<style>
+		
+		ul{
+			list-style: none;
+			background-color: #29da29;
+			width: 100%;
+			float: left;
+			margin: 0;
+			padding: 0px;
+			height: 80px;
+		}
+		.menu-lv2{
+			/*display: inline-block;*/
+			float: left;
+			padding: 10px;
+			border-right: 1px white solid;
+			height: 60px;
+			line-height: 60px;
+			position: relative;
+
+		}
+		.menu-lv3{
+			position: absolute;
+    		top: 80px;
+    		left: 0px;
+    		width: 120px;
+    		height: auto !important
+
+		}
+		.menu-lv3>li{
+			border-top: 0.5px white solid;
+			padding-left: 10px;
+			
+		}
+		.tintuc{
+			/*top:60px;*/
+			left: 0px;
+			width: 200px;
+			position: relative;
+		}
+		.menu-lv4{
+			    border-top: 0.5px white solid;
+			    /*padding-left: 10px;*/
+			    position: absolute;
+			    left: 121px;
+			    top: -2px;
+			    height: auto;
+			    display: none;
+		}
+		.menu-lv4 li{
+			border: 1px white solid;
+		}
+		.tintuc:hover .menu-lv4{
+			display: block;
+		}
+		.menu-lv2:hover .menu-lv3{
+			/*background-color: pink;*/
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<ul class="parent-lv1">
+		<li class="menu-lv2"> <i class="fa fa-cloud" aria-hidden="true"></i></li>
+		<li class="menu-lv2">Xem danh mục
+			<ul class="menu-lv3">
+				<li>Danh mục 1</li>
+				<li class="tintuc">Danh mục 2
+					<ul class="menu-lv4">
+						<li>Hà Nội</li>
+						<li>Sài gòn</li>
+					</ul>
+				</li>
+				<li>Danh mục 3</li>
+			</ul>
+		</li>
+		<li class="menu-lv2">Tin tức</li>
+		<li class="menu-lv2">Hi-tech</li>
+		<li class="menu-lv2">Giải trí</li>
+	</ul>
+</body>
+</html>

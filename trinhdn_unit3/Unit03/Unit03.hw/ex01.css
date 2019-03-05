@@ -1,0 +1,10 @@
+.DT{
+	color: red;
+}
+div{
+	color: #0000FF;
+   width: 200px;
+   height: 200px;
+   padding: 10px; 
+   background: #66FF33;
+}

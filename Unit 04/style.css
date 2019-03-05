@@ -1,0 +1,40 @@
+/*dinh nghia font chu*/
+@font-face{
+	font-family: 'font-o-ly';
+	src:url('font/UNITapviet_5_ly.ttf');
+}
+
+.rec{
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+	border: 1px dotted red;
+}
+#box-model{
+/*	border-width: 1px;
+	border-color: red;
+	border-style: solid;*/
+	margin-top: 20px;
+	padding-left: 30px;
+	font-family: 'font-o-ly';
+	font-size: 80px;
+	color: #828a1b;
+	position: relative;
+}
+.child{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: absolute;
+}
+#child1{
+	top: 40px;
+	left: 50px;
+	background-color: blue;
+	z-index: 2;	
+}
+#child2{
+	top: 30px;
+	left: 60px;
+	z-index: 1
+}

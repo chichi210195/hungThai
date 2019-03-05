@@ -1,0 +1,158 @@
+.middle{
+	height: 1000px;
+}
+}
+
+#banner img{
+	width: 60%;
+	height: 300px;
+	
+}
+/* navigaiton bar */
+ul {
+	
+	list-style-type: none;
+	width: 100%;
+	padding: 4px;
+}
+
+li {
+ float: left;
+  height: 30px;
+  vertical-align: center;
+}
+
+li a {
+	border-left: 1px solid #393942;
+	border-right: 1px solid #4f5058;
+	text-align: center;
+	padding: 4px;
+}
+
+li:first-child a {
+	border-left: none
+}
+
+li:last-child a {
+	border-right: none
+}
+
+/*  */
+#left{
+	width: 20%;
+	background-color: white;
+	float: left;
+}
+#main{
+	width: 60%;
+	background-color:white;
+	float: left;
+	/* flow-y:scroll; height:300px; background:gray; */
+}
+#right{
+	width: 20%;
+	background-color: white;
+	float: right;
+	}
+#footer{
+	width: 60%;
+	height: 100px;
+	background-color: black;
+}
+
+#article-content {
+	background-color: red;
+	width: 80%;
+	float: left;
+}
+
+article.article-left, article.article-right {
+	padding: .3rem;
+}
+
+.article-title {
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+article.article-left div.article-title {
+	background-image: url("../anh/main_bar_left.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+article.article-right div.article-title {
+	background-image: url("../anh/main_bar_right.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+article.article-left div.article-title h4 {
+	text-align: left;
+	margin:0px; 
+    padding:0px; 
+}
+
+article.article-right div.article-title h4 {
+	text-align: right;
+	margin:0px; 
+    padding:0px; 
+}
+
+.article-subtitle {
+	color: orange;
+	height: 10px;
+}
+
+article.article-left img.article-image {
+	float: right;
+}
+
+article.article-right img.article-image {
+	float: left;
+	margin-right: 4px;
+}
+
+img.article-image {
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgray;
+}
+
+#gioiThieu {
+	border-radius: 20px;
+	border-width: 4px;
+	border-color: orange;
+	background: #73AD21;
+	border-style: solid;
+	padding: 4px;
+}
+/* remove padding of paragraph */
+p {
+	padding:0px; 
+	margin: 0px;
+}
+
+.article-left, .article-right {
+	margin-top: 10px;
+}
+
+/* Left Menu */
+article.menu {
+	border-style: groove;
+	border-width: 4px;
+	border-color: gray;
+	margin: 4px;
+}
+
+article.menu div.category {
+	background-image: url("../anh/menu_bar.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-left: 1.5rem;
+	height: 20px;
+}
+
+article.menu div.category a{
+	color: white;
+}
