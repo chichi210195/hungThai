@@ -1,0 +1,262 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration-line: none;
+	color: black;
+}
+.full{
+	width: 100%;
+	/*margin: 0 auto;*/
+
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+#magazine{
+	height: 30px;
+	background-color: #272424;
+}
+#logo{
+	height: 80px;
+	background-color: #f0a52b;
+}
+#menu{
+	height: 50px;
+	background-color: #ae1e1e;
+}
+#truy-cap-nhanh li{
+	float: left;
+	padding: 3px;
+	text-transform: uppercase;
+}
+#truy-cap-nhanh a{
+	color: white !important;
+	margin-left: 4px;
+}
+#truy-cap-nhanh .fa-star{
+	color: orange;
+}
+#search{
+	position: relative;
+}
+#search .fa-search{
+	position: absolute;
+	top: 5px;
+	left: 142px;
+}
+#search input{
+	margin-top: 5px;
+}
+#logo img{
+	width: 70px;
+}
+#logo ul{
+	margin: 15px 20px;
+}
+#logo ul li{
+	margin-left: 5px;
+	padding: 2px;
+	float: left;
+	line-height: 30px;
+	height: 30px;
+	border: 1px solid white;
+	border-radius: 3px;
+
+}
+#logo a, #menu a, #truy_cap-nhanh{
+	color: white !important;
+}
+#menu li{
+	float: left;
+	padding: 15px;
+}
+#menu li:hover{
+	background-color: #862a3f;
+}
+#grey{
+	background-color: #ccc;
+	height: 40px;
+}
+#tin-tuc{
+	margin-top: 10px;
+	width: 70%;
+}
+#ads{
+	width: 30%;
+	margin-top: 10px;
+}
+#tin-nong .left{
+	width: 70%;
+}
+#tin-nong .right{
+	width: 30%;
+}
+#tin-nong .left img{
+	height:525px; 
+	width: 100%;
+}
+#tin-nong .right img{
+	height:525px; 
+	width:100%;
+}
+#tin-lien-quan{
+	margin-top: 50px;
+	height: 200px;
+}
+#tin-lien-quan img{
+	width: 100%;
+	height: 200px;
+}
+.p-3{
+	width: 30%;
+	float:left;
+	margin: 2px;
+}
+.middle{
+margin-right:13px;
+margin-left:13px;
+}
+#tin-nong h2, #tin-nong h4,#tin-lien-quan h4{
+text-align: justify;
+}
+#content {
+	font-family: tahoma;
+	font-size: 14px;
+	width: 700px;
+	height:725px;
+	border: 1px solid #CDCDCD;
+	/*margin-left: 50px;*/
+	padding: 10px;
+	clear: both;
+}
+#content ul li{
+	line-height: 30px;
+	clear: left;
+	border-bottom: 1px solid #ccc;
+	float: left;
+	margin-bottom: 20px;
+}
+#content ul li img{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+#hot{
+	background: #201D1D;
+	color: white;
+	font-size: 14px;
+	width: 700px;
+	height:590px;
+	border: 1px solid #CDCDCD;
+	padding: 10px;
+	margin-left: 135px;
+	border-radius: 5px;
+	clear: both;
+}
+#hot ul li{
+	line-height: 30px;
+	clear: left;
+	border-bottom: 1px solid #ccc;
+	float: left;
+	margin-bottom: 20px;
+}
+#hot ul li .fa-eye{
+	color: orange;
+}
+#hot ul li .fa-facebook-square{
+	color: #3B27F3;
+	margin-left: 70px;
+}
+#hot ul li h2 a{
+	color: white;
+	font-size: 18px;
+}
+#hot ul li img{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+#content2 {
+	font-family: tahoma;
+	font-size: 14px;
+	width: 700px;
+	height:483px;
+	border: 1px solid #CDCDCD;
+	margin-left: 135px;
+	padding: 10px;
+	clear: both;
+}
+#content2 ul li{
+	line-height: 30px;
+	clear: left;
+	border-bottom: 1px solid #ccc;
+	float: left;
+	margin-bottom: 20px;
+}
+#content2 ul li img{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+#tin-lien-quan-2{
+	margin-top: 50px;
+	height: 200px;
+	line-height: 25px;
+	clear: both;
+}
+#tin-lien-quan-2 img{
+	width: 100%;
+	height: 300px;
+}
+#footer
+{ 
+	height: 350px;
+	clear: left;
+	
+}
+.footer-3
+{  margin-top: 30px;
+	width: 30%;
+	height: 300px;
+	float: left;
+	border-right: 1px solid black: 
+
+}
+#mess
+{
+	height: 24px;
+	width: 180px;
+	background-color: #0084ff;
+	color: white;
+	margin-top: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 24px;
+	text-transform: uppercase;
+	padding-left: 5px;
+}
+#mess2
+{
+	height: 24px;
+	width: 110px;
+	background-color: #fa5d37;
+	color: white;
+	margin-top: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 24px;
+	text-transform: uppercase;
+	padding-left: 10px;
+}
