@@ -1,0 +1,157 @@
+*{
+	margin: 0 ;
+	padding: 0;
+}
+.header{
+	width: 100%;
+	margin: 0 auto;
+}
+.menu{
+	margin: 0 30%;
+	width: 60%;
+}
+.menu > li{
+	list-style: none;
+	float: left;
+	height: 30px;
+	margin-bottom: 10px;
+}
+.a{
+	margin-top: 30px;
+	padding: 10px;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+}
+.imgs1{
+	float: left;
+	border: 1px solid grey;
+	width: 25%;
+	padding: 10px;
+	margin: 20px;
+}
+.imgs1 img{
+	width: 100%;
+}
+.content{
+	background-color: #EFFBFB;
+	margin: 100px;
+	margin-top: 0px;
+	padding-top: 90px;
+	text-align: center;
+	padding: 5%;
+}
+.content h2{
+	font-size: 30px;
+	color: #81F7BE;
+}
+.content p{
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+.content1{
+	background-color: #F2F2F2;
+	margin: 100px;
+	padding: 60px;
+
+}
+.ct1-left{
+	float: left;
+	padding: 10px 10px;
+	width: 55%;
+}
+.ct1-right{
+	float: right;
+	width: 30%;
+}
+.icon{
+	float: right;
+	padding-right: 50px;
+	text-align: center;
+	margin-top: 30px;
+
+}
+.footer{
+	background-color: #A9E2F3;
+	margin: 100px;
+	padding:60px;
+}
+.footer p{
+	padding: 20px 0 10px 0;
+}
+.footer button{
+    margin: 30px 0 50px 0;
+    width: 6%;
+    height: 25px;
+    background-color: rgba(0, 153, 255, 0.911);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.footer input{
+	width: 80%;
+	height: 30px;
+}
+.footer textarea{
+	width: 80%;
+	height: 60px;
+}
+/*desktop big*/
+@media all and (min-width: 1200px){
+
+}
+/*desktop*/
+@media all and (max-width: 992px) {
+	.imgs{
+		margin-left: 4%;
+	}
+	.width-992{
+		display: none;
+	}
+}
+/*tablet*/
+@media all and (max-width: 768px){
+	.imgs{
+		width: 45%;
+		margin-left: 3%;
+	}
+	.imgs .imgs1{
+		width: 100%;
+	}
+	.header ul{
+		width: 53% !important
+		left:25%;
+	}
+	.header ul li{
+		font-size: 60%;
+		width: 9%;
+	}
+	.width-768{
+		display: none;	
+	}
+}
+/*smartphone*/
+@media all and (max-width: 576px){
+	.imgs{
+		width: 95%;
+		margin-left: 3%;
+	}
+	.img .imgs1{
+		width: 95%;
+		margin-left: 3%;
+	}
+	#end-content p{
+		margin: 0 20px;
+	}
+	.header ul .none{
+		display: none;
+	}
+	.header ul li img{
+		margin-left: -50%;
+	}
+	.header ul{
+		border :none;
+	}
+	.width-576px{
+		display: none;
+	}
+}

@@ -125,11 +125,12 @@ a{
 	margin: 2px;
 }
 .middle{
-margin-right:13px;
-margin-left:13px;
+	margin-right:13px;
+	margin-left:13px;
+	width: 30%;
 }
 #tin-nong h2, #tin-nong h4,#tin-lien-quan h4{
-text-align: justify;
+	text-align: justify;
 }
 #content {
 	font-family: tahoma;
@@ -196,7 +197,8 @@ text-align: justify;
 	border: 1px solid #CDCDCD;
 	margin-left: 135px;
 	padding: 10px;
-	clear: both;
+	/*clear: both;*/
+	float: left;
 }
 #content2 ul li{
 	line-height: 30px;
@@ -260,3 +262,4 @@ text-align: justify;
 	text-transform: uppercase;
 	padding-left: 10px;
 }
+.
